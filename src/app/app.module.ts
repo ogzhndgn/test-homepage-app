@@ -11,6 +11,7 @@ import {ContentModule} from './content/content.module';
   declarations: [
     AppComponent,
     NavbarComponent,
+    FooterComponent,
     HeaderComponent
   ],
   imports: [
