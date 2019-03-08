@@ -7,7 +7,12 @@ import {Component, OnInit} from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  siteTitle: string = 'CorePirates';
+  signUp: string = 'Sign Up';
+  logIn: string = 'Log In';
+
+  constructor() {
+  }
 
   ngOnInit() {
   }

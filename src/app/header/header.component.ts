@@ -7,6 +7,10 @@ import {Component, OnInit} from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  heading: string = 'One Page Wonder';
+  subHeading: string = 'Will Rock Your Socks Off';
+  learnMore: string = 'Learn More';
+
   constructor() {
   }
 

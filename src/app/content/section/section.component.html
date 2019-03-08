@@ -1,0 +1,17 @@
+<section>
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6" [ngClass]="{'order-lg-2' : content.alignedRight === true}">
+        <div class="p-5">
+          <img class="img-fluid rounded-circle" src="assets/img/{{content.imageName}}">
+        </div>
+      </div>
+      <div class="col-lg-6" [ngClass]="{'order-lg-1' : content.alignedRight === true}">
+        <div class="p-5">
+          <h2 class="display-4">{{content.title}}</h2>
+          <p>{{content.description}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

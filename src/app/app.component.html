@@ -1,5 +1,5 @@
 <app-navbar></app-navbar>
 <app-header></app-header>
-<app-section3></app-section3>
+<app-section *ngFor="let content of contents" [content]="content"></app-section>
 <app-footer></app-footer>
 

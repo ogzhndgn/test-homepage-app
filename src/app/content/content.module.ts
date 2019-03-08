@@ -1,14 +1,15 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { Section3Component } from './section3/section3.component';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {SectionComponent} from './section/section.component';
 
 @NgModule({
   imports: [
     CommonModule
   ],
-  declarations: [Section3Component],
+  declarations: [SectionComponent],
   exports: [
-    Section3Component
+    SectionComponent
   ]
 })
-export class ContentModule { }
+export class ContentModule {
+}
