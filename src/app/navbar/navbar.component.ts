@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {AppConstants} from '../shared/AppConstants';
 
 @Component({
   selector: 'app-navbar',
@@ -7,7 +8,7 @@ import {Component, OnInit} from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  siteTitle: string = 'CorePirates';
+  siteTitle: string = AppConstants.siteName;
   signUp: string = 'Sign Up';
   logIn: string = 'Log In';
 

@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {AppConstants} from '../shared/AppConstants';
 
 @Component({
   selector: 'app-footer',
@@ -8,7 +9,7 @@ import {Component, OnInit} from '@angular/core';
 export class FooterComponent implements OnInit {
 
   currentYear: number = new Date().getFullYear();
-  siteName: string = 'CorePirates';
+  siteName: string = AppConstants.siteName;
 
   constructor() {
   }
