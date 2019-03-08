@@ -1,10 +1,10 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { FooterComponent } from './footer/footer.component';
-import { NavbarComponent } from './navbar/navbar.component';
+import {AppComponent} from './app.component';
+import {NavbarComponent} from './navbar/navbar.component';
+import {FooterComponent} from './footer/footer.component';
+import {ContentModule} from './content/content.module';
 
 @NgModule({
   declarations: [
@@ -13,9 +13,11 @@ import { NavbarComponent } from './navbar/navbar.component';
     FooterComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ContentModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
